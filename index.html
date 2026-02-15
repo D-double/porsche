@@ -4,34 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nike</title>
+  <title>PORSCHE</title>
+  <link rel="icon" href="./img/logo.png" type="image/png">
   <link
     href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
   <script src="#"></script>
 </head>
 
 <body>
+  <nav class="nav">
+    <div class="container nav__content">
+      <a href="" class="logo">
+        <img src="img/logo.png" alt="" class="logo__img">
+      </a>
+      <button class="nav__burger">
+        <img src="./img/material-symbols-light--menu-rounded.svg" alt="">
+      </button>
+      <ul class="menu">
+        <li>
+          <a href="#!" class="menu__link">HOME PAGE</a>
+        </li>
+        <li>
+          <a href="#!" class="menu__link">CATEGORY</a>
+        </li>
+        <li>
+          <a href="#!" class="menu__link">ABOUT US</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <header class="header">
-    <nav class="nav">
-      <div class="container nav__content">
-        <a href="" class="logo">
-          <img src="img/logo.png" alt="" class="logo__img">
-        </a>
-        <ul class="menu">
-          <li>
-            <a href="#!" class="menu__link">HOME PAGE</a>
-          </li>
-          <li>
-            <a href="#!" class="menu__link">CATEGORY</a>
-          </li>
-          <li>
-            <a href="#!" class="menu__link">ABOUT US</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
   <div class="header__content">
     <h1 class="header__title">PORSCHE</h1>
     <a href="" class="header__link">MORE</a>
@@ -52,8 +57,12 @@
     <section class="gallery">
       <h2 class="title">GALLERY</h2>
       <div class="gallery__content">
-        <img src="./img/gallery-1.jpg" alt="" class="gallery__img">
-        <img src="./img/gallery-2.jpg" alt="" class="gallery__img">
+        <div>
+          <img src="./img/gallery-1.jpg" alt="" class="gallery__img">
+        </div>
+        <div>
+          <img src="./img/gallery-2.jpg" alt="" class="gallery__img">
+        </div>
       </div>
       <img src="./img/gallery-3.jpg" alt="" class="gallery__img">
     </section>
@@ -78,29 +87,29 @@
         <img src="./img/about.jpg" alt="" class="about__img">
     </section>
   </main>
-  <footer class="footer">
-    <div class="container footer__content">
-      <form action="" class="form">
-        <input class="form__input" type="text" placeholder="First Name" required>
-        <input class="form__input" type="text" placeholder="Last Name" required>
-        <input class="form__input" type="email" placeholder="Email address" required>
-        <button class="form__btn" type="submit">Submit</button>
-      </form>
+<footer class="footer">
+  <div class="container footer__content">
+    <form action="" class="form">
+      <input class="form__input" type="text" placeholder="First Name" required>
+      <input class="form__input" type="text" placeholder="Last Name" required>
+      <input class="form__input" type="email" placeholder="Email address" required>
+      <button class="form__btn" type="submit">Submit</button>
+    </form>
 
-      <ul class="footer__menu">
-        <li class="footer__subtitle">CONTACT</li>
-        <li><a href="#!" class="footer__link">998 98 888 98 98</a></li>
-        <li><a href="#!" class="footer__link">porshe@gmail.com</a></li>
-        <li><a href="#!" class="footer__link">zipcode 32323232</a></li>
-      </ul>
-      <ul class="footer__menu">
-        <li class="footer__subtitle">SOCIAL</li>
-        <li><a href="#!" class="footer__link">Instagram</a></li>
-        <li><a href="#!" class="footer__link">Facebook</a></li>
-        <li><a href="#!" class="footer__link">Telegram</a></li>
-      </ul>
-    </div>
-  </footer>
+    <ul class="footer__menu">
+      <li class="footer__subtitle">CONTACT</li>
+      <li><a href="#!" class="footer__link">998 98 888 98 98</a></li>
+      <li><a href="#!" class="footer__link">porshe@gmail.com</a></li>
+      <li><a href="#!" class="footer__link">zipcode 32323232</a></li>
+    </ul>
+    <ul class="footer__menu">
+      <li class="footer__subtitle">SOCIAL</li>
+      <li><a href="#!" class="footer__link">Instagram</a></li>
+      <li><a href="#!" class="footer__link">Facebook</a></li>
+      <li><a href="#!" class="footer__link">Telegram</a></li>
+    </ul>
+  </div>
+</footer>
 </body>
 
 </html>
